@@ -4,7 +4,7 @@ c.KubeSpawner.start_timeout = 60 * 10 #Images are big, take time to pull, make i
 import os
 import distutils
 
-#c.JupyterHub.log_level = 'DEBUG'
+c.JupyterHub.log_level = 'DEBUG'
 #c.Spawner.debug = True
 # Do not shut down singleuser servers on restart
 c.JupyterHub.cleanup_servers = False
